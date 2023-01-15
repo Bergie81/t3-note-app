@@ -89,7 +89,7 @@ const Home: NextPage = () => {
       <main className="mx-auto flex min-h-screen flex-col py-10 sm:container">
         <div className="items-left flex justify-between py-9">
           <h1 className="text-3xl font-bold tracking-tight sm:text-left sm:text-3xl">
-            My all Notes
+            All my Notes
           </h1>
           <div>
             <Link
