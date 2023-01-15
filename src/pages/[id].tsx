@@ -15,7 +15,7 @@ export default function NotesDetail() {
     <>
       <main className="mx-auto flex min-h-screen flex-col py-10 sm:container">
         <Link
-          className="indigo-700 inline-block py-4 text-base font-semibold leading-7 text-green-700"
+          className="indigo-700 inline-block py-4 text-base font-semibold leading-7 text-purple-700"
           href="/"
         >
           Go back

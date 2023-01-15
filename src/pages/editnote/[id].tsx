@@ -72,7 +72,7 @@ const Editnote: NextPage = () => {
       </Head>
       <main className="mx-auto flex min-h-screen flex-col justify-center py-10 md:container">
         <Link
-          className="indigo-700 inline-block py-4 text-base font-semibold leading-7 text-green-700"
+          className="indigo-700 inline-block py-4 text-base font-semibold leading-7 text-purple-700"
           href="/"
         >
           Go back
@@ -101,18 +101,18 @@ const Editnote: NextPage = () => {
             value={data?.title}
             placeholder="Your title"
             onChange={(event) => handelTitleChange(event)}
-            className="border-1 mb-2 block w-full rounded-sm border-green-800 bg-neutral-100 px-4 py-2 focus:outline-none"
+            className="border-1 mb-2 block w-full rounded-sm border-purple-800 bg-neutral-100 px-4 py-2 focus:outline-none"
           />
           <textarea
             required
             value={data?.description}
             placeholder="Your description"
             onChange={(event) => handelDescriptionChange(event)}
-            className="border-1 mb-2 block w-full rounded-sm border-green-800 bg-neutral-100 px-4 py-2 focus:outline-none"
+            className="border-1 mb-2 block w-full rounded-sm border-purple-800 bg-neutral-100 px-4 py-2 focus:outline-none"
           />
           <button
             type="submit"
-            className="block w-full rounded-lg bg-green-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-green-600 hover:bg-green-700 hover:ring-green-700"
+            className="block w-full rounded-lg bg-purple-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple-600 hover:bg-purple-700 hover:ring-purple-700"
           >
             Edit note
           </button>
